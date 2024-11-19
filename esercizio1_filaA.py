@@ -1,0 +1,7 @@
+punteggio1=float(input("Inserisci il primo punteggio in trentesimi: "))
+punteggio2=float(input("Inserisci il secondo punteggio in trentesimi: "))
+punteggio3=float(input("Inserisci il terzo punteggio in trentesimi: "))
+media=((punteggio1+punteggio2+punteggio3)/3)
+print(f"La media in trentesimi del tuo punteggio è {media}")
+media100=((media*100)/30)
+print(f"La media del tuo punteggio in centesimi è {media100}")
